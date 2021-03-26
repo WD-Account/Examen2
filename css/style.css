@@ -1,0 +1,184 @@
+body{
+	font-family: "Catamaran";
+}
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+
+
+
+header{
+	background-color: #fff;
+}
+
+#hero,
+#hero-slides{
+	font-family: 'Merriweather Sans', sans-serif;
+	padding: 0 0 5% 0;
+}
+
+
+#hero h5,
+#hero-slides h5{
+	font-size:68px;
+	font-weight: 600;
+}
+
+#Conferences{
+	padding: 80px 100px 80px 100px;
+	text-align: center;
+	color: #333;
+}
+
+
+#Conferences .title{
+	font-size: 42px;
+	font-weight: 600;
+}
+
+
+#Conferences .subtitle{
+	padding-top: 25px;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+#Conferences p{
+	font-size: 18px;
+	font-weight: 100;
+}
+
+#Conferences .row{
+	padding: 100px 50px 50px 50px;
+}
+
+#Conferences .img-fluid{
+	height: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 15px 0 15px;
+}
+
+
+#Speakers{
+	padding: 80px 100px 80px 100px;
+	text-align: center;
+	color: #333;
+}
+
+
+#Speakers .title{
+	font-size: 42px;
+	font-weight: 600;
+}
+
+
+#Speakers .subtitle{
+	padding-top: 25px;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+#Speakers p{
+	font-size: 18px;
+	font-weight: 100;
+}
+
+#Speakers .row{
+	padding: 100px 50px 50px 50px;
+}
+
+#Speakers .img-fluid{
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+#Meetings{
+	background-color: #282d33;
+	padding-top: 100px;
+	padding-bottom: 120px;
+	padding: 35px 150px 50px 35px;
+}
+
+#Meetings .title{
+	color: #c3c3c3;
+	text-align: center;
+	padding-bottom: 80px;
+	font-size: 38px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+
+#Meetings .row{
+	align-content: center;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+
+
+#Meetings h3, h5{
+	color: #fff;
+	font-weight: 200;
+}
+#Meetings h4, p{
+	color: #898989;
+}
+
+.circulo{
+	width: 100px;
+	height: 100px;
+	line-height: 80px;
+	border-radius: 100%;
+	display: block;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+#Sponsors{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+#Sponsors .title{
+	color:  var(--color-negro);
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+
+#Sponsors .subtitle{
+	padding-top: 15px;
+	padding-bottom: 20px;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+#Sponsors .row{
+	align-content: center;
+	padding-top: 50px;
+	margin-left: 25px;
+}
+
+
+
+
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
